@@ -1,0 +1,27 @@
+notes for webpage. will help with description of css classes.
+
+colors for webpages:
+
+
+#450400 -red
+#450400 -dark red
+#E0870B -gold
+#00534E -green-blue
+#105E4E -green 
+
+
+NOTES:
+
+8/2/2017
+removed div from around header; header is all read; name is not in box;			--to change add div around header
+
+add container for div col row; put col inside of green box;						--prblm fixed
+
+add in fonts
+style nav bar
+start on other pages
+pick new colors
+social media bar
+correct footer
+
+8/3/2017
