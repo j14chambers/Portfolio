@@ -1,0 +1,14 @@
+.box-red{
+	padding: 10px 5px;
+	background-color: rgba(69,4,0,0.7);
+	margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    border: solid 5px;
+    border-color: white;
+}
+
+.port {
+    font-size: 25px !important;
+    font-family: monospace !important;
+}

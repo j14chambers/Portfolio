@@ -1,0 +1,50 @@
+/*social media */
+#index .social-box{
+  display:inline-block;
+}
+
+#index .div-button{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#index .btn {
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+
+}
+
+#index .btn-fb:hover {
+    background-color: #3d5b99;
+    color: white;
+}
+
+#index .btn-tw:hover {
+    background-color: #00aced;
+    color: white;
+}
+
+#index .btn-li:hover {
+    background-color: #0073a4;
+    color: white;
+}
+
+#index .btn-gplus:hover {
+    background-color: #e25714;
+    color: white;
+}
+#index .btn-git:hover {
+    background-color: #000;.
+    color: white;
+}
+#index .btn-email:hover {
+    background-color: #bb0000;
+    color: white;
+}
+#index .btn-ins:hover {
+    background-color:  #e95950;
+    color: white;
+}
