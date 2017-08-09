@@ -79,6 +79,6 @@ Index Webpage
 --Change hover attributes of "View More.."
 
 Hover on Git button ??
-Add footer to all pages
+Add footer to all pages                 --done
 Add a contact form on Contact page
 Add more information on Portfolio and Index
