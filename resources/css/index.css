@@ -28,30 +28,26 @@ body{
 
 .box-green{
 	padding: 10px 5px;
-	background-color: #00534E;
+	background-color: rgba(0,94,78,0.9);
 	margin: 25px;
 	border-width: 5px;
 	border-style: solid;
 }
 
-/*nav ul{
-	margin: 0;
+.box-black{
+	padding: 10px 5px;
+	background-color: rgba(44,44,44,0.95);
+	margin: 25px;
+    border-color: #E0870B;
+	border-width: 5px;
+	border-style: solid;
+}
+footer{
+	padding: 10px 5px;
+	background-color: rgba(224,135,11,0.9);
+	margin: 25px;
 
 }
-
-nav ul li{
-	list-style-type: none;
-	display: inline-block;
-	margin: 5px;
-	padding: 5px 20px;
-	background: white;
-	color: white;
-
-}
-
-nav ul li a{
-	color: #105E4E;
-}*/
 
 #index h1{
 	font-size: 60px;
@@ -62,14 +58,26 @@ nav ul li a{
 }
 
 #index h2{
-	font-size: 40px;
-	color: red;
+	font-size: 45px;
+	color: #606469;
+	font-family: "Anton";
+}
 
+#index h3{
+    font-size: 40px;
+	color: #450400;
+	font-family: "Anton";
+}
+
+#index h4{
+    font-size: 30px;
+	color: #105E4E;
+	font-family: "Anton";
 }
 #index p{
-	font-size: 35px;
-	color: blue;
-	font-family: "Montserrat";
+	font-size: 20px;
+	color: white;
+	font-family: "Anton";
 }
 
 .row{
@@ -79,18 +87,22 @@ nav ul li a{
 
 .col{
 	float: left;
-	background: red;
-	padding: 50px;
-	margin: 5%;
+	background: #E0870B;
+	
+	margin: 3%;
 	width: 25%;
 
 }
-
+img{
+    width: 100%;
+    height: 100%;
+}
 footer{
 	clear: both;
 	color: white;
 	font-size: 20px;
 
 }
+
 
 /*BOOTSTRAP SECTION*/
