@@ -20,6 +20,8 @@ https://twitter.com/Money_Hustla
 https://plus.google.com/u/0/113846394506215580994
 https://linkedin.com/in/jessica-m-chambers
 https://github.com/j14chambers
+https://www.facebook.com/jay14chambers
+https://instagram.com/2_cuttin_it
 
 
 NOTES:
@@ -61,4 +63,22 @@ add social media buttons to bottom of each page
 keep contact page?
 
 
-8/ /2017
+8/8/2017
+
+Rename Project --Portfolio
+New URL on git -- j14chambers.github.io/Portfolio
+
+Resume Webpage
+--Format Software
+--Remove name from page
+
+Index Webpage
+--Added social media icons
+--Change font of footer
+--Remove Contact from page
+--Change hover attributes of "View More.."
+
+Hover on Git button ??
+Add footer to all pages
+Add a contact form on Contact page
+Add more information on Portfolio and Index
