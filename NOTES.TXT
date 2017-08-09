@@ -3,11 +3,23 @@ notes for webpage. will help with description of css classes.
 colors for webpages:
 
 
-#450400 -red
-#450400 -dark red
-#E0870B -gold
-#00534E -green-blue
-#105E4E -green 
+
+#450400 	rgba(69,4,0)		-dark red
+#E0870B 	rgba(224,135,11)	-gold
+#00534E 	rgba(0,94,78)		-green-blue
+#105E4E 	rgba(16,94,78)		-green 
+#606469		rgba(96,100,105)	-gray
+#000000     rgba(44,44,44,0.95) -black
+
+
+
+social media links
+
+
+https://twitter.com/Money_Hustla
+https://plus.google.com/u/0/113846394506215580994
+https://linkedin.com/in/jessica-m-chambers
+https://github.com/j14chambers
 
 
 NOTES:
@@ -20,8 +32,33 @@ add container for div col row; put col inside of green box;						--prblm fixed
 add in fonts
 style nav bar
 start on other pages
-pick new colors
+pick new colors                                   --done
 social media bar
-correct footer
+correct footer                                    --done
 
 8/3/2017
+
+made box-green transparent
+change font to anton for all text
+added webpages										--acts as template for new webpages
+added javascript folder and index.js
+added contact.html
+change color of text
+updated footer on home page
+
+added portfolio content to home page
+added content to portfolio page
+
+
+8/5/2017
+
+Completed Resume page
+
+Change hyperlinks color      
+link email address to button
+finish contact page
+add social media buttons to bottom of each page
+keep contact page?
+
+
+8/ /2017
