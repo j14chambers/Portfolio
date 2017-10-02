@@ -8,7 +8,14 @@
     border-color: white;
 }
 
-.port {
-    font-size: 25px !important;
-    font-family: monospace !important;
+
+h2, p{
+    padding-left: 20px;
+}
+p a, h2 a{
+    color: white;
+}
+p a:hover, h2 a:hover{
+    text-decoration: none;
+    color: rgba(69,4,0,0.7);
 }
