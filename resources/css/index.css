@@ -43,14 +43,13 @@ body{
 	border-style: solid;
 }
 footer{
-	padding: 10px 5px;
+	padding: 20px 5px;
 	background-color: rgba(224,135,11,0.9);
 	margin: 25px;
     clear: both;
 	color: white;
 	font-size: 20px;
     text-align: center;
-
 }
 
 #index h1{
@@ -58,12 +57,11 @@ footer{
 	color: #E0870B;
 	text-align: center;
 	font-family: "Anton";
-
 }
 
 #index h2{
 	font-size: 45px;
-	color: #606469;
+	color: rgba(96,100,105);
 	font-family: "Anton";
 }
 
@@ -86,13 +84,11 @@ footer{
 
 .row{
 	clear: both;
-
 }
 
 .col{
 	float: left;
 	background: #E0870B;
-	
 	margin: 3%;
 	width: 25%;
 
