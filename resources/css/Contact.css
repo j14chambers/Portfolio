@@ -1,3 +1,7 @@
+.center-text{
+    text-align: center;
+}
+
 /*social media */
 #index .social-box{
   display:inline-block;
