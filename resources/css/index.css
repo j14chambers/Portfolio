@@ -25,7 +25,14 @@ body{
 	padding-bottom: 90px;
 	line-height: 1.3; 
 }
-
+#index nav .nav a, .navbar-attr{
+	color: #e5a632;
+	background-color: rgba(0,94,78,0.9);
+	font-size: 25px;
+}
+#index .name{
+	font-size: 30px;
+}
 .box-green{
 	padding: 10px 5px;
 	background-color: rgba(0,94,78,0.9);
@@ -38,7 +45,7 @@ body{
 	padding: 10px 5px;
 	background-color: rgba(44,44,44,0.95);
 	margin: 25px;
-    border-color: #E0870B;
+  border-color: #E0870B;
 	border-width: 5px;
 	border-style: solid;
 }
@@ -46,10 +53,10 @@ footer{
 	padding: 20px 5px;
 	background-color: rgba(224,135,11,0.9);
 	margin: 25px;
-    clear: both;
+  clear: both;
 	color: white;
 	font-size: 20px;
-    text-align: center;
+  text-align: center;
 }
 
 #index h1{
@@ -66,13 +73,13 @@ footer{
 }
 
 #index h3{
-    font-size: 40px;
+  font-size: 40px;
 	color: #450400;
 	font-family: "Anton";
 }
 
 #index h4{
-    font-size: 30px;
+  font-size: 30px;
 	color: #105E4E;
 	font-family: "Anton";
 }
