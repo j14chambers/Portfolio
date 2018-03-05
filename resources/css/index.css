@@ -94,6 +94,16 @@ footer{
 .p-format{
 	margin-left: 35px;
 }
+#index .box-black ul li{
+	color: currentColor;
+	font-size: inherit;
+	font-family: 'Anton';
+}
+#index .box-black ul li{
+	color: white;
+	font-size: 20px;
+	margin-left: 25px; 
+}
 
 .row{
 	clear: both;
