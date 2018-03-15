@@ -74,14 +74,14 @@ footer{
 }
 
 #index h3{
-  font-size: 40px;
-	color: #450400;
+  font-size: 38px;
+	color: #1e544c;
 	font-family: "Anton";
 }
 
 #index h4{
-  font-size: 30px;
-	color: #105E4E;
+  font-size: 25px;
+	color: #1e544c;
 	font-family: "Anton";
 }
 #index p{
@@ -148,6 +148,18 @@ img{
     color: #E0870B;
     text-decoration: none;
     
+}
+
+.tech-skill li{
+	display: inline-flex;
+}
+.work-experince ul{
+	text-indent: -10px; 
+  padding-left: 20px;
+}
+.work-experince li{
+  list-style: inherit !important;
+
 }
 
 
