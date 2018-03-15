@@ -38,10 +38,8 @@ header{
 }
 .box-green{
 	padding: 10px 5px;
-	background-color: rgba(0,94,78,0.9);
+	background-color: rgba(30,84,76,0.8);
 	margin: 25px;
-	border-width: 5px;
-	border-style: solid;
 }
 
 .box-black{
@@ -71,7 +69,7 @@ footer{
 
 #index h2{
 	font-size: 45px;
-	color: rgba(96,100,105);
+	color: #50c9f2;
 	font-family: "Anton";
 }
 
