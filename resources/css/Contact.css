@@ -1,6 +1,14 @@
 .center-text{
     text-align: center;
 }
+/*FORM*/
+.contact-form{
+    margin: auto;
+    color: white;
+}
+.textarea{
+    margin-left: auto;
+}
 
 /*social media */
 #index .social-box{
