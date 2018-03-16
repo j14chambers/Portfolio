@@ -64,11 +64,16 @@ img{
 
 #index nav .nav a, .navbar-attr{
 	color: #e5a632;
-	background-color: rgba(0,94,78,0.9);
+	background-color: rgba(30,84,76,0.8);
 	font-size: 20px;
 }
 #index .name{
 	font-size: 30px;
+	color: #50c9f2;
+}
+.active{
+	background-color: #e5a632 !important;
+	color: white !important;
 }
 /*FOOTER*/
 .style-ft{
@@ -90,12 +95,9 @@ img{
 	margin: 25px;
 }
 .box-black{
-	padding: 10px 5px;
+	padding: 15px 20px;
 	background-color: rgba(44,44,44,0.95);
 	margin: 25px;
-  	border-color: #E0870B;
-	border-width: 5px;
-	border-style: solid;
 }
 /*HOME PAGE*/
 .portfolio-home img{
