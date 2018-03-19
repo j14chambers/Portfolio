@@ -51,36 +51,42 @@
             </div><!-- /.container-fluid -->
         </nav>
     </header>
-    <div class="box-green col-md-8 col-sm-12 contact-form">
+    <div class="box-green col-sm-offset-2 col-md-offset-2 col-md-8 col-sm-8 contact-form">
         <h1>Contact Me</h1>
-        <form class="form-horizontal">
+        <form class="form-horizontal" action="https://formspree.io/jessica_m_chambers@outlook.com" method="POST" >
             <div class="form-group form-group-lg">
                 <label class="col-sm-2 control-label" for="name">Name</label>
                 <div class="col-sm-10">
-                    <input class="form-control" type="text" id="name">
+                    <input class="form-control" type="text" id="name" name="name">
                 </div>
             </div>
             <div class="form-group form-group-lg">
                 <label class="col-sm-2 control-label" for="email">Email</label>
                 <div class="col-sm-10">
-                    <input class="form-control" type="text" id="email">
+                    <input class="form-control" type="text" id="email" name="_replyto">
                 </div>
             </div>
             <div class="form-group form-group-lg">
                 <label class="col-sm-2 control-label" for="subject">Subject</label>
                 <div class="col-sm-10">
-                    <input class="form-control" type="text" id="subject">
+                    <input class="form-control" type="text" id="subject" name="subject">
                 </div>
             </div>
             <div class="form-group form-group-lg textarea">
-                <div class="col-sm-10">
-                    <textarea class="form-control" rows="2"></textarea>
+                <div class="col-sm-offset-2 col-sm-10">
+                    <textarea class="form-control" rows="4" name="textarea"></textarea>
                 </div>
             </div>
+            <div class="form-group form-group-lg" id="submit-form">
+                <div class="col-sm-offset-4 col-sm-10">
+                    <input type="submit" name="Send" value="Send" id="submit-btn">
+                </div>
+            </div>
+
         </form>
     </div>
-    <div class="box-green center-text col-sm-12 col-md-12">
-        <h2>Want to keep up with me. Follow on Social Media.</h2>
+    <div class="box-green col-sm-12 col-md-12">
+        <h3>Want to know what I'm doing. Check out my social media accounts.</h3>
 
         <!--     Social Media Profile button Section                  -->
         <div class="social-box">
