@@ -149,8 +149,17 @@ img{
 .work-experince li{
   list-style: inherit !important;
 }
-
-
+/*Portfolio Page*/
+.portfolio-page img{
+	height: 300px;
+	width: 300px;
+}
+.tag-description{
+	font-size: 10px;
+}
+.tag ul{
+	background-color: blue;
+}
 
 /*SOCIAL MEDIA SECTION ARE IN CONTACT.CSS*/
 
