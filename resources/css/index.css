@@ -137,7 +137,7 @@ img{
 #index .box-black ul li{
 	color: white;
 	font-size: 20px;
-	margin-left: 25px; 
+	/*! margin-left: 25px; */ 
 }
 .tech-skill li{
 	display: inline-flex;
@@ -152,13 +152,28 @@ img{
 /*Portfolio Page*/
 .portfolio-page img{
 	height: 300px;
-	width: 300px;
+	width: 100%;
 }
 .tag-description{
-	font-size: 10px;
+	font-size: 18px !important;
+	padding: 0;
+	margin-left: 10px;
 }
-.tag ul{
-	background-color: blue;
+.tag{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-left: 10px;
+	font-size: 0;
+}
+#index .tag li{
+	background-color: white;
+	color: black !important;
+	font-size: 18px !important;
+	padding: 5px;
+	list-style: none;
+	margin-left: 5px !important;
+	margin-bottom: 5px !important;
 }
 
 /*SOCIAL MEDIA SECTION ARE IN CONTACT.CSS*/
