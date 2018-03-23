@@ -3,10 +3,10 @@ body{
 	font-size: 20px;
 	margin: 30px;
 	color: white;
-	font-family: "Titan";
+	font-family: 'Fira Sans', sans-serif;
 }
 header{
-	font-family: 'Krona One', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 footer{
 	padding: 20px 5px;
@@ -44,7 +44,7 @@ footer{
 #index p{
 	font-size: 20px;
 	color: white;
-	font-family: "Anton";
+	font-family: 'Fira Sans', sans-serif;
 }
 img{
     width: 100%;
@@ -65,10 +65,10 @@ img{
 #index nav .nav a, .navbar-attr{
 	color: #e5a632;
 	background-color: rgba(30,84,76,0.8);
-	font-size: 20px;
+	font-size: 25px;
 }
 #index .name{
-	font-size: 30px;
+	font-size: 35px;
 	color: #50c9f2;
 }
 .active{
@@ -103,26 +103,35 @@ img{
 .portfolio-home img{
 	height: 300px;
 }
+.portfolio-home h2, .education h2, .program-lang h2{
+	margin-left: 15px;
+}
 .p-format{
 	margin-left: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 10px;
 }
 #index .p-format ul{
 	margin: 30px;
 	padding: 10px;
 }
 .p-format li{
-	color: white;
+	color: rgb(30,84,76);
 	text-align: center;
-	font-family: "Anton";
 	font-size: 20px;
-	display: inline-flex;
+	list-style: none;
 	margin: 10px 10px;
-	background-color: black;
+	background-color: white;
+	border-radius: 15px;
 	padding: 10px;
-	width: 120px;
+	width: 115px;
 }
 #hover a{
     color: white;
+	font-family: 'Anton';
+	font-size: 30px;
+	margin-left: 15px;
 }
 #hover a:hover{
     color: #E0870B;
@@ -132,15 +141,17 @@ img{
 #index .box-black ul li{
 	color: currentColor;
 	font-size: inherit;
-	font-family: 'Anton';
-}
-#index .box-black ul li{
+	font-family: 'Fira Sans', sans-serif;
 	color: white;
 	font-size: 20px;
-	/*! margin-left: 25px; */ 
+}
+#index .box-black ul p{
+	color: white;
+	font-size: 23px; 
 }
 .tech-skill li{
 	display: inline-flex;
+	margin: 10px;
 }
 .work-experince ul{
 	text-indent: -10px; 
@@ -155,9 +166,10 @@ img{
 	width: 100%;
 }
 .tag-description{
-	font-size: 18px !important;
+	font-size: 16px !important;
 	padding: 0;
 	margin-left: 10px;
+	font-family: 'Roboto Condensed', sans-serif !important;
 }
 .tag{
 	display: flex;
@@ -168,10 +180,12 @@ img{
 }
 #index .tag li{
 	background-color: white;
-	color: black !important;
-	font-size: 18px !important;
-	padding: 5px;
+	color: rgb(30,84,76) !important;
+	font-size: 20px !important;
+	font-family: 'Roboto Condensed', sans-serif !important;
+	padding: 10px 15px;
 	list-style: none;
+	border-radius: 8px;
 	margin-left: 5px !important;
 	margin-bottom: 5px !important;
 }
