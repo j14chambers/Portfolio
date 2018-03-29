@@ -61,7 +61,8 @@ footer h6{
 }
 img{
     width: 100%;
-	  padding: 10px;
+	  padding: 15px;
+	  margin: auto;
 }
 
 /*NAVBAR*/
@@ -116,8 +117,19 @@ img{
 .portfolio-home img{
 	height: 300px;
 }
+.box-green p{
+	margin-left: 25px;
+}
 .portfolio-home h2, .education h2, .program-lang h2{
 	margin-left: 15px;
+}
+.about h2{
+	text-align: center;
+}
+.education p{
+	text-indent: -40px;
+	padding: 0 20px 0 50px;
+	margin-left: 50px;
 }
 .p-format{
 	margin-left: 30px;
@@ -184,6 +196,13 @@ img{
 	margin-left: 10px;
 	font-family: 'Roboto Condensed', sans-serif !important;
 }
+#index blockquote{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	border: none;
+	font-family: 'Roboto Condensed', sans-serif !important;
+}
 .tag{
 	display: flex;
 	flex-flow: row wrap;
@@ -202,6 +221,11 @@ img{
 	margin-left: 5px !important;
 	margin-bottom: 5px !important;
 }
+.thirty-days ul{
+  justify-content: space-around;
+}
+#index .thirty-days ul li{
+	font-size: 28px !important;
+}
 
 /*SOCIAL MEDIA SECTION ARE IN CONTACT.CSS*/
-
