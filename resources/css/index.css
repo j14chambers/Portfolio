@@ -10,12 +10,16 @@ header{
 }
 footer{
 	padding: 20px 5px;
-	background-color: rgba(224,135,11,0.9);
+	background-color: rgba(30,84,76,0.8);
 	margin: 25px;
   	clear: both;
 	color: white;
 	font-size: 20px;
 	text-align: center;
+	margin: 0;
+}
+footer h6{
+	font-size: 18px;
 }
 #index h1{
 	font-size: 60px;
