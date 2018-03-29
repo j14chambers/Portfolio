@@ -1,7 +1,11 @@
+html{
+	min-height: 100%;
+	position: relative;
+}
 body{
 	background: #105E4E;
 	font-size: 20px;
-	margin: 30px;
+	margin: 40px;
 	color: white;
 	font-family: 'Fira Sans', sans-serif;
 }
@@ -12,11 +16,16 @@ footer{
 	padding: 20px 5px;
 	background-color: rgba(30,84,76,0.8);
 	margin: 25px;
-  	clear: both;
+  clear: both;
 	color: white;
 	font-size: 20px;
 	text-align: center;
-	margin: 0;
+	margin: 0px 0 -200px 0;
+	position: absolute;
+	overflow: hidden;
+	bottom: 0;
+	width: 100%;
+
 }
 footer h6{
 	font-size: 18px;

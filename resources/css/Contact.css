@@ -20,28 +20,14 @@
     background-color: #50c9f2;
 }
 
-/*social media */
-#index .social-box{
-  display:inline-block;
-}
-#index .box-green h3{
-    color: white;
-    font-size: 35px;
-    text-align: center;
-}
-
-#index .div-button{
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
 /*FOOTER SOCIAL MEDIA BUTTONS*/
 
 #index .icons-sm{
-    padding: 12px 15px 15px;
+    font-size: 25px;
+    padding: 12px;
+    text-align: center;
     background-color:  white;
     color: #50caf2;
-    margin-left: 10px;
     border-radius: 5px;
     border: 1px solid white;
 }
@@ -49,12 +35,22 @@
     background-color: white;
     color: white;
     padding: 12px;
-    margin-left: 10px;
     border-radius: 5px;
-    width: 55px;
-    height: 55px;
     border: 1px solid white;
+    height: 50px;
+    width: 50px;
 }
 #index footer .icons-sm:hover, #index .medium:hover{
     background-color: black;
+}
+footer div{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+#index footer a{
+    margin: 5px;
+    display: inline-block;
+    max-height: 50px;
+    max-width: 50px;
+
 }
