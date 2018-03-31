@@ -1,96 +1,56 @@
 .center-text{
     text-align: center;
 }
-
-/*social media */
-#index .social-box{
-  display:inline-block;
-}
-
-#index .div-button{
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-#index .btn {
-    -o-transition:.5s;
-    -ms-transition:.5s;
-    -moz-transition:.5s;
-    -webkit-transition:.5s;
-    transition: .5s;
-
-}
-
-#index .btn-fb:hover {
-    background-color: #3d5b99;
+/*FORM*/
+.contact-form{
     color: white;
+    font-size: 25px;
 }
-
-#index .btn-tw:hover {
-    background-color: #00aced;
-    color: white;
+.textarea{
+    margin-left: auto;
+    padding: 10px;
 }
-
-#index .btn-li:hover {
-    background-color: #0073a4;
+#submit-btn{
     color: white;
-}
-
-#index .btn-gplus:hover {
-    background-color: #e25714;
-    color: white;
-}
-#index .btn-git:hover {
-    background-color: #000;.
-    color: white;
-}
-#index .btn-email:hover {
-    background-color: #bb0000;
-    color: white;
-}
-#index .btn-ins:hover {
-    background-color:  #e95950;
-    color: white;
+    font-size: 30px;
+    padding: 10px 20px;
+    margin: auto;
+    border-radius: 10px;
+    border: 5px #50c9f2 solid;
+    background-color: #50c9f2;
 }
 
 /*FOOTER SOCIAL MEDIA BUTTONS*/
-#index .fb-ic {
-    background-color: #3d5b99;
-    color: white;
-    padding: 4px;
-}
-
-#index .tw-ic {
-    background-color: #00aced;
-    color: white;
-    padding: 4px;
-}
-
-#index .li-ic {
-    background-color: #0073a4;
-    color: white;
-    padding: 4px;
-}
-
-#index .gplus-ic {
-    background-color: #e25714;
-    color: white;
-    padding: 4px;
-}
-#index .git-ic {
-    background-color: #000;.
-    color: white;
-    padding: 4px;
-}
-#index .ins-ic {
-    background-color:  #e95950;
-    color: white;
-    padding: 4px;
-}
 
 #index .icons-sm{
-    padding: 10px;
-    margin-left: 10px;
+    font-size: 25px;
+    padding: 12px;
+    text-align: center;
+    background-color:  white;
+    color: #50caf2;
     border-radius: 5px;
-    
+    border: 1px solid white;
+}
+#index .medium{
+    background-color: white;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid white;
+    height: 50px;
+    width: 50px;
+}
+#index footer .icons-sm:hover, #index .medium:hover{
+    background-color: black;
+}
+footer div{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+#index footer a{
+    margin: 5px;
+    display: inline-block;
+    max-height: 50px;
+    max-width: 50px;
+
 }

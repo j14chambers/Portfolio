@@ -1,21 +1,71 @@
-
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
-@import url(https://fonts.googleapis.com/css?family=Titan One' rel='stylesheet);
-@import url(https://fonts.googleapis.com/css?family=Unlock' rel='stylesheet);
-@import url(https://fonts.googleapis.com/css?family=Antic' rel='stylesheet);
-@import url(https://fonts.googleapis.com/css?family=Marko One' rel='stylesheet);
-@import url('https://fonts.googleapis.com/css?family=Anton');
-
-
+html{
+	min-height: 100%;
+	position: relative;
+}
 body{
 	background: #105E4E;
 	font-size: 20px;
-	margin: 30px;
+	margin: 40px;
 	color: white;
-	font-family: "Titan";
+	font-family: 'Fira Sans', sans-serif;
+}
+header{
+	font-family: 'Roboto', sans-serif;
+}
+footer{
+	padding: 20px 5px;
+	background-color: rgba(30,84,76,0.8);
+	margin: 25px;
+  clear: both;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	margin: 0px 0 -200px 0;
+	position: absolute;
+	overflow: hidden;
+	bottom: 0;
+	width: 100%;
 
 }
+footer h6{
+	font-size: 18px;
+}
+#index h1{
+	font-size: 60px;
+	color: #E0870B;
+	text-align: center;
+	font-family: "Anton";
+}
 
+#index h2{
+	font-size: 45px;
+	color: #50c9f2;
+	font-family: "Anton";
+}
+
+#index h3{
+  font-size: 38px;
+	color: #50c9f2;
+	font-family: "Anton";
+}
+
+#index h4{
+  font-size: 25px;
+	color: #50c9f2;
+	font-family: "Anton";
+}
+#index p{
+	font-size: 20px;
+	color: white;
+	font-family: 'Fira Sans', sans-serif;
+}
+img{
+    width: 100%;
+	  padding: 15px;
+	  margin: auto;
+}
+
+/*NAVBAR*/
 .body-img{
 	background-image: url('https://s-media-cache-ak0.pinimg.com/originals/0b/e2/27/0be227030cfeefd5e1dfa4e8b1d01fad.jpg');
 	background-repeat: no-repeat;
@@ -26,92 +76,156 @@ body{
 	line-height: 1.3; 
 }
 
-.box-green{
-	padding: 10px 5px;
-	background-color: rgba(0,94,78,0.9);
-	margin: 25px;
-	border-width: 5px;
-	border-style: solid;
+#index nav .nav a, .navbar-attr{
+	color: #e5a632;
+	background-color: rgba(30,84,76,0.8);
+	font-size: 25px;
 }
-
-.box-black{
-	padding: 10px 5px;
-	background-color: rgba(44,44,44,0.95);
-	margin: 25px;
-    border-color: #E0870B;
-	border-width: 5px;
-	border-style: solid;
+#index .name{
+	font-size: 35px;
+	color: #50c9f2;
 }
-footer{
-	padding: 20px 5px;
-	background-color: rgba(224,135,11,0.9);
-	margin: 25px;
-    clear: both;
-	color: white;
-	font-size: 20px;
-    text-align: center;
+.active{
+	background-color: #e5a632 !important;
+	color: white !important;
 }
-
-#index h1{
-	font-size: 60px;
-	color: #E0870B;
-	text-align: center;
-	font-family: "Anton";
+/*FOOTER*/
+.style-ft{
+    margin: 15px; 
 }
-
-#index h2{
-	font-size: 45px;
-	color: rgba(96,100,105);
-	font-family: "Anton";
-}
-
-#index h3{
-    font-size: 40px;
-	color: #450400;
-	font-family: "Anton";
-}
-
-#index h4{
-    font-size: 30px;
-	color: #105E4E;
-	font-family: "Anton";
-}
-#index p{
-	font-size: 20px;
-	color: white;
-	font-family: "Anton";
-}
-
+/*BODY APPLIED TO ALL PAGES*/
 .row{
 	clear: both;
 }
 
 .col{
-	float: left;
-	background: #E0870B;
-	margin: 3%;
+	margin: 15px;
+	margin-left: 35px;
 	width: 25%;
-
 }
-img{
-    width: 100%;
-    height: 100%;
+.box-green{
+	padding: 10px 5px;
+	background-color: rgba(30,84,76,0.8);
+	margin: 25px;
 }
-
-.style-ft{
-    margin: 15px;
-    
+.box-black{
+	padding: 15px 20px;
+	background-color: rgba(44,44,44,0.95);
+	margin: 25px;
+}
+/*HOME PAGE*/
+.portfolio-home img{
+	height: 300px;
+}
+.box-green p{
+	margin-left: 25px;
+}
+.portfolio-home h2, .education h2, .program-lang h2{
+	margin-left: 15px;
+}
+.about h2{
+	text-align: center;
+}
+.education p{
+	text-indent: -40px;
+	padding: 0 20px 0 50px;
+	margin-left: 50px;
+}
+.p-format{
+	margin-left: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 10px;
+}
+#index .p-format ul{
+	margin: 30px;
+	padding: 10px;
+}
+.p-format li{
+	color: rgb(30,84,76);
+	text-align: center;
+	font-size: 20px;
+	list-style: none;
+	margin: 10px 10px;
+	background-color: white;
+	border-radius: 15px;
+	padding: 10px;
+	width: 115px;
 }
 #hover a{
     color: white;
+	font-family: 'Anton';
+	font-size: 30px;
+	margin-left: 15px;
 }
 #hover a:hover{
     color: #E0870B;
-    text-decoration: none;
-    
+    text-decoration: none; 
+}
+/*RESUME PAGE*/
+#index .box-black ul li{
+	color: currentColor;
+	font-size: inherit;
+	font-family: 'Fira Sans', sans-serif;
+	color: white;
+	font-size: 20px;
+}
+#index .box-black ul p{
+	color: white;
+	font-size: 23px; 
+}
+.tech-skill li{
+	display: inline-flex;
+	margin: 10px;
+}
+.work-experince ul{
+	text-indent: -10px; 
+  padding-left: 20px;
+}
+.work-experince li{
+  list-style: inherit !important;
+}
+/*Portfolio Page*/
+.portfolio-page img{
+	height: 300px;
+	width: 100%;
+}
+.tag-description{
+	font-size: 16px !important;
+	padding: 0;
+	margin-left: 10px;
+	font-family: 'Roboto Condensed', sans-serif !important;
+}
+#index blockquote{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	border: none;
+	font-family: 'Roboto Condensed', sans-serif !important;
+}
+.tag{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-left: 10px;
+	font-size: 0;
+}
+#index .tag li{
+	background-color: white;
+	color: rgb(30,84,76) !important;
+	font-size: 20px !important;
+	font-family: 'Roboto Condensed', sans-serif !important;
+	padding: 10px 15px;
+	list-style: none;
+	border-radius: 8px;
+	margin-left: 5px !important;
+	margin-bottom: 5px !important;
+}
+.thirty-days ul{
+  justify-content: space-around;
+}
+#index .thirty-days ul li{
+	font-size: 28px !important;
 }
 
-
-
-/*SOCIAL MEDIA SECTION*/
-
+/*SOCIAL MEDIA SECTION ARE IN CONTACT.CSS*/
