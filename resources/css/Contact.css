@@ -22,7 +22,7 @@
 
 /*FOOTER SOCIAL MEDIA BUTTONS*/
 
-#index .icons-sm{
+.icons-sm{
     font-size: 25px;
     padding: 12px;
     text-align: center;
@@ -30,24 +30,20 @@
     color: #50caf2;
     border-radius: 5px;
     border: 1px solid white;
+    width: 30px;
+    height: 30px;
 }
-#index .medium{
-    background-color: white;
-    color: white;
-    padding: 12px;
-    border-radius: 5px;
-    border: 1px solid white;
-    height: 50px;
-    width: 50px;
+.medium{
+    width: 30px;
 }
-#index footer .icons-sm:hover, #index .medium:hover{
+footer .icons-sm:hover, .medium:hover{
     background-color: black;
 }
 footer div{
     display: inline-flex;
     flex-wrap: wrap;
 }
-#index footer a{
+footer a{
     margin: 5px;
     display: inline-block;
     max-height: 50px;
