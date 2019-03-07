@@ -161,6 +161,8 @@ nav a, .navbar-attr{
 .box-green p{
 	margin-left: 25px;
 }
+
+/*ABOUT PARAGRAPH*/
 .about{
 	width: 50%;
 	position: absolute;
@@ -176,8 +178,6 @@ nav a, .navbar-attr{
 	z-index: 100;
 	width: 80%;
 	position: absolute;
-    /*right: 0px;
-    top: 150px;*/
     bottom: 0px;
     left: 50px;
     background-color: rgba(30,84,76,0.8);
@@ -185,8 +185,12 @@ nav a, .navbar-attr{
 .about-p p{
 	padding: 40px 20px;
 }
+
+/*EDUCATION AND SKILL SECTION*/
 .format-section{
 	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
 .education, .program-lang{
 	/*width: 70%;*/
@@ -224,6 +228,29 @@ nav a, .navbar-attr{
 	border-radius: 15px;
 	padding: 10px;
 	width: 115px;
+}
+
+/* PORTFOLIO SECTION*/
+.portolio-home .img-links{
+	flex: 1;
+
+}
+.img-links{
+	margin: 30px;
+}
+.img-links img{
+	width: 340px;
+	height: 340px;
+}
+#hover a{
+    color: white;
+	font-family: 'Anton';
+	font-size: 30px;
+	margin-left: 15px;
+}
+#hover a:hover{
+    color: #E0870B;
+    text-decoration: none; 
 }
 
 /*FOOTER*/
