@@ -1,9 +1,12 @@
+*{
+	margin: 0;
+}
 html{
 	min-height: 100%;
 	position: relative;
 }
 body{
-	background: #105E4E;
+	background: #fff;
 	font-size: 20px;
 /*	margin: 40px;*/
 	color: white;
@@ -15,7 +18,7 @@ header{
 }
 footer{
 	padding: 20px 5px;
-	background-color: rgba(30,84,76,0.8);
+	background-color: rgba(30,84,76,1.0);
 	margin: 25px;
   	clear: both;
 	color: white;
@@ -87,6 +90,8 @@ a{
  .navbar {
     font-size: 18px;
     padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: rgba(30,84,76,1.0);
 }
 .active{
 	display: block;
@@ -97,7 +102,7 @@ nav a{
 }
 nav a, .navbar-attr{
 	color: #e5a632;
-	background-color: rgba(30,84,76,0.8);
+	
 	font-size: 25px;
 }
 @media screen and (min-width: 768px) {
