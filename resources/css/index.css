@@ -166,24 +166,26 @@ nav a, .navbar-attr{
 .about{
 	width: 50%;
 	position: absolute;
-    right: 0px;
-    top: 0px;
+    right: 25%;
+    top: 100px;
     z-index: 1000;
-    background-color: rgba(30,84,76,0.8);
+
 }
 .about h2{
 	text-align: center;
 }
 .about-p{
-	z-index: 100;
-	width: 80%;
+	z-index: 1000;
+	width: 65%;
 	position: absolute;
-    bottom: 0px;
-    left: 50px;
-    background-color: rgba(30,84,76,0.8);
+    bottom: 100px;
+    left: 15%;
+    margin-bottom: 0;
+	background-color: rgba(30,84,76,0.6);
 }
 .about-p p{
 	padding: 40px 20px;
+
 }
 
 /*EDUCATION AND SKILL SECTION*/
