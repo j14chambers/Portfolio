@@ -254,7 +254,37 @@ nav a, .navbar-attr{
     color: #E0870B;
     text-decoration: none; 
 }
-
+/*RESUME PAGE*/
+#resume-page{
+	background-color: rgba(30,84,76);
+}
+.box-black{
+	padding: 15px 20px;
+	background-color: rgba(44,44,44,0.95);
+	margin: 25px;
+}
+.box-black ul li{
+	color: currentColor;
+	font-size: inherit;
+	font-family: 'Fira Sans', sans-serif;
+	color: white;
+	font-size: 20px;
+}
+.box-black ul p{
+	color: white;
+	font-size: 23px; 
+}
+.tech-skill li{
+	display: inline-flex;
+	margin: 10px;
+}
+.work-experince ul{
+	text-indent: -10px; 
+  padding-left: 20px;
+}
+.work-experince li{
+  list-style: initial;
+}
 /*FOOTER*/
 .style-ft{
     margin: 15px; 
