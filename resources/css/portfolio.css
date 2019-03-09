@@ -8,22 +8,34 @@ p a:hover, h2 a:hover{
     text-decoration: none;
     color: #e5a632;
 }
-
+.portfolio-page{
+	 
+}
+.portfolio-page section{
+	margin: 50px;
+	padding: 40px;
+	background-color: rgba(30,84,76);
+	border-radius: 20px;
+}
 /*Portfolio Page*/
 .container{
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	text-align: center;
+
 }
 .box{
 	flex: 1;
-	border: 1px red solid;
-	margin: 10px;
+	margin: 40px 10px;
+	background-color: rgba(44,44,44,0.95);
+	padding: 20px;
+	border-radius: 20px;
 }
-.portfolio-page img{
+.box img{
 	height: 300px;
 	width: 300px;
+
 }
 .tag-description{
 	font-size: 16px !important;
