@@ -101,6 +101,10 @@ a{
 .active{
 	display: block;
 }
+.active-page a{
+	color: white;
+	text-decoration: underline;
+}
 nav a{
 	text-decoration: none;
 	margin-left: 40px;
@@ -258,14 +262,18 @@ nav a, .navbar-attr{
 #resume-page{
 	background-color: rgba(30,84,76);
 }
+#resume-page section{
+	margin-top: 100px;
+}
 .box-black{
-	padding: 15px 20px;
+	padding: 90px 50px;
 	background-color: rgba(44,44,44,0.95);
 	margin: 25px;
 }
+.education-resume h4{
+	margin-top: 10px;
+}
 .box-black ul li{
-	color: currentColor;
-	font-size: inherit;
 	font-family: 'Fira Sans', sans-serif;
 	color: white;
 	font-size: 20px;
@@ -278,12 +286,17 @@ nav a, .navbar-attr{
 	display: inline-flex;
 	margin: 10px;
 }
-.work-experince ul{
+.work-experience ul{
 	text-indent: -10px; 
-  padding-left: 20px;
+  	padding-left: 30px;
+  	list-style: square;
 }
-.work-experince li{
-  list-style: initial;
+.work-experience p{
+	font-weight: 900;
+	margin: 10px 0;
+}
+.work-experience li{
+  margin-left: 10px;
 }
 /*FOOTER*/
 .style-ft{
