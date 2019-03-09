@@ -1,55 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Resume</title>
-	<link rel="stylesheet" type="text/css" href="resources/css/index.css">
+    <title>Jessica Chambers- Web Dev</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/index.css">
     <link rel="stylesheet" type="text/css" href="resources/css/Contact.css">
     <link href="https://fonts.googleapis.com/css?family=Krona+One|Roboto+Condensed:400,700" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Anton|Titan+One" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Fjalla+One|IBM+Plex+Sans" rel="stylesheet"> 
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 </head>
-<body class="body-img" id="index">
+<body id="resume-page">  
     <header>
-        <nav class="navbar navbar-inverse navbar-fixed-top navbar-expand-lg">
-            <div class="container-fluid navbar-attr">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only navbar-collapse">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand name" href="index.html">Jessica Chambers</a>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse navbar-attr" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="Resume.html">Resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+            <a href="index.html" class="logo">Jessica Chambers</a>
+            <ul class="navbar-list main-nav" id="js-menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="Resume.html">Resume </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </nav>
     </header>
 
@@ -57,7 +34,7 @@
 
         <div class="box-black">
             <h3>Education</h3>
-            <p>Alabama Agricultural and Mechanical University<br>	
+            <p>Alabama Agricultural and Mechanical University<br>   
                 B.S.E.E, Electrical Engineering | December 2016<br>
                 Concentration in Computer Engineering
             </p>
@@ -171,7 +148,7 @@
         </div>
     
     </div>
-    
+
     <footer> 
         <div>
             <!--Facebook-->
@@ -186,16 +163,13 @@
             <a href="https://instagram.com/jmspaceblog" class="icons-sm ins-ic"><i class="fa fa-instagram"> </i></a>
             <!--Github-->
             <a href="https://github.com/j14chambers" class="icons-sm git-ic"><i class="fa fa-github"> </i></a>
-            <a href="https://medium.com/@JMSPACE"><img class="medium" src="resources/images/icons8-medium-50.png"></a>
+            <a class='icons-sm' href="https://medium.com/@JMSPACE"><img class="medium" src="resources/images/icons8-medium-50.png"></a>
         </div>
     
         <div class="style-ft">
             <h6> &copy; 2018.This website was created by Jessica Chambers</h6>
         </div>
     </footer>
-    
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="resources/js/navbar.js"></script>
 </body>
 </html>
