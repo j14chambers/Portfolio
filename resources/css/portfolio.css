@@ -9,3 +9,56 @@ p a:hover, h2 a:hover{
     color: #e5a632;
 }
 
+/*Portfolio Page*/
+.container{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.box{
+	flex: 1;
+	border: 1px red solid;
+	margin: 10px;
+}
+.portfolio-page img{
+	height: 300px;
+	width: 300px;
+}
+.tag-description{
+	font-size: 16px !important;
+	padding: 10px;
+	margin-left: 10px;
+	font-family: 'Roboto Condensed', sans-serif !important;
+}
+blockquote{
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	border: none;
+	font-family: 'Roboto Condensed', sans-serif !important;
+}
+.tag{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-left: 10px;
+	font-size: 0;
+}
+.tag li{
+	background-color: white;
+	color: rgb(30,84,76) !important;
+	font-size: 20px !important;
+	font-family: 'Roboto Condensed', sans-serif !important;
+	padding: 10px 15px;
+	list-style: none;
+	border-radius: 8px;
+	margin-left: 5px !important;
+	margin-bottom: 5px !important;
+}
+.thirty-days ul{
+  justify-content: space-around;
+}
+.thirty-days ul li{
+	font-size: 28px !important;
+}
