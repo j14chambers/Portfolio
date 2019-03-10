@@ -1,53 +1,62 @@
 .center-text{
     text-align: center;
 }
+p{
+    margin: 20px;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+section{
+    margin-top: 20px;
+    padding: 10px 5px;
+}
 /*FORM*/
+form{
+    margin: 10px 20%;
+}
 .contact-form{
     color: white;
-    font-size: 25px;
+    position: relative;
+    font-size: 30px;
+    /*margin: 10px 300px;*/
+    width: 50%;
+    left: 25%;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    background-color: rgba(30,84,76,1);
+    border-radius: 5px;
+    box-shadow: 1px 10px 15px 1px rgb(44,44,44);
 }
-.textarea{
-    margin-left: auto;
-    padding: 10px;
+input{
+   width: 400px;
+   height: 40px;
+   padding-left: 20px;
+   border: 3px solid #E0870B;
+   border-radius: 10px;
+   font-size: 20px;
+   margin: 10px 0;
 }
+textarea{
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: 3px solid #E0870B;
+    font-size: 20px;
+}
+
 #submit-btn{
     color: white;
     font-size: 30px;
-    padding: 10px 20px;
-    margin: auto;
+    width: 200px;
+    height: 60px;
+    margin-top: 40px;
     border-radius: 10px;
     border: 5px #50c9f2 solid;
     background-color: #50c9f2;
 }
 
-/*FOOTER SOCIAL MEDIA BUTTONS*/
-
-.icons-sm{
-    font-size: 25px;
-    padding: 12px;
-    text-align: center;
-    background-color:  white;
-    color: #50caf2;
-    border-radius: 5px;
-    border: 1px solid white;
-    width: 30px;
-    height: 30px;
-}
-.medium{
-    width: 30px;
-}
-footer .icons-sm:hover, .medium:hover{
-    background-color: black;
-}
-footer div{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-footer a{
-    margin: 5px;
-    display: inline-block;
-    max-height: 50px;
-    max-width: 50px;
-
+footer{
+    position: relative;
 }
