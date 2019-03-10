@@ -40,8 +40,9 @@ footer .icons-sm:hover, .medium:hover{
     background-color: black;
 }
 footer div{
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 footer a{
     margin: 5px;
