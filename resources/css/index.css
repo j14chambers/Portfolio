@@ -200,13 +200,16 @@ nav a, .navbar-attr{
 }
 .education, .program-lang{
 	/*width: 70%;*/
+	margin: 0;
+	padding: 35px;
 }
 
 .education{
-	flex: 2;
+	/*flex: 2;*/
 }
 .program-lang{
 	flex: 1;
+	padding: 25px;
 }
 .education h3{
 	font-size: 20px;
@@ -237,19 +240,23 @@ nav a, .navbar-attr{
 }
 
 /* PORTFOLIO SECTION*/
-.portolio-home .img-links{
+.portfolio-home{
+	margin: 30px;
+}
+.portfolio-home .img-links{
 	flex: 1;
 
 }
 .img-links{
 	margin: 30px;
+	box-shadow: 1px 10px 15px 1px rgb(44,44,44);
 }
 .img-links img{
 	width: 340px;
 	height: 340px;
 }
 #hover a{
-    color: white;
+    color: rgba(30,84,76);
 	font-family: 'Anton';
 	font-size: 30px;
 	margin-left: 15px;
