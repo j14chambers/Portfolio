@@ -1,20 +1,22 @@
 h2, p{
     padding-left: 20px;
+    color: rgba(44,44,44,0.95);
 }
 p a, h2 a{
-    color: white;
+    color: inherit;
+
 }
 p a:hover, h2 a:hover{
     text-decoration: none;
     color: #e5a632;
 }
-.portfolio-page{
-	 
-}
-.portfolio-page section{
-	margin: 50px;
+/*#portfolio-page p{
+	color: rgba(44,44,44,0.95);
+}*/
+#portfolio-page section{
+	/*margin: 50px;*/
 	padding: 40px;
-	background-color: rgba(30,84,76);
+	/*background-color: rgba(30,84,76);*/
 	border-radius: 20px;
 }
 /*Portfolio Page*/
@@ -27,20 +29,22 @@ p a:hover, h2 a:hover{
 }
 .box{
 	flex: 1;
-	margin: 40px 10px;
-	background-color: rgba(44,44,44,0.95);
-	padding: 20px;
-	border-radius: 20px;
+	margin: 40px 20px;
+	background-color: rgba(44,44,44,1);
+	/*padding: 20px;*/
+	/*border-radius: 20px;*/
+	box-shadow: 1px 10px 15px 1px rgb(44,44,44);
 }
 .box img{
 	height: 300px;
-	width: 300px;
+	width: 100%;
 
 }
 .tag-description{
 	font-size: 16px !important;
 	padding: 10px;
 	margin-left: 10px;
+	color: white;
 	font-family: 'Roboto Condensed', sans-serif !important;
 }
 blockquote{
