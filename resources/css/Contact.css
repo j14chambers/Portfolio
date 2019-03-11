@@ -29,7 +29,7 @@ form{
     box-shadow: 1px 10px 15px 1px rgb(44,44,44);
 }
 input{
-   width: 400px;
+   width: 100%;
    height: 40px;
    padding-left: 20px;
    border: 3px solid #E0870B;
@@ -39,7 +39,7 @@ input{
 }
 textarea{
     height: 200px;
-    width: 400px;
+    width: 100%;
     border-radius: 10px;
     padding-left: 20px;
     border: 3px solid #E0870B;
@@ -59,4 +59,25 @@ textarea{
 
 footer{
     position: relative;
+}
+
+
+/* MOBILE*/
+
+@media (min-width: 300px) and (max-width: 750px) {
+  .contact-form{
+        left: 5%;
+        width: 90%;
+    }
+  
+}
+
+/*TABLETS*/
+@media (min-width: 751px) and (max-width: 1024px){
+  
+  .contact-form{
+        left: 10%;
+        width: 80%
+    }
+  
 }
