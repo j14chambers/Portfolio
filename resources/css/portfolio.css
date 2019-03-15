@@ -60,6 +60,7 @@ blockquote{
 	justify-content: center;
 	margin-left: 10px;
 	font-size: 0;
+	padding-bottom: 15px;
 }
 .tag li{
 	background-color: white;
