@@ -55,6 +55,11 @@ textarea{
     border-radius: 10px;
     border: 5px #50c9f2 solid;
     background-color: #50c9f2;
+    box-shadow: 1px 10px 15px 1px rgb(44,44,44);
+}
+#submit-btn:hover{
+    background-color: #E0870B;
+    border: #e0870b;
 }
 
 footer{
