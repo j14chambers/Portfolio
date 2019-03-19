@@ -131,7 +131,7 @@ nav a, .navbar-attr{
 	color: #50c9f2;
 }
 .header-img{
-	background-image: url('resources/images/bg-image.jpg');
+	background-image: url(resources/images/bg-image.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
