@@ -1,56 +1,88 @@
 .center-text{
     text-align: center;
 }
+p{
+    margin: 20px;
+    font-size: 25px;
+    padding: 20px;
+    text-align: center;
+}
+section{
+    margin-top: 20px;
+    padding: 10px 5px;
+}
 /*FORM*/
+form{
+    margin: 10px 20%;
+}
 .contact-form{
     color: white;
-    font-size: 25px;
+    position: relative;
+    font-size: 30px;
+    /*margin: 10px 300px;*/
+    width: 50%;
+    left: 25%;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    background-color: rgba(30,84,76,1);
+    border-radius: 5px;
+    box-shadow: 1px 10px 15px 1px rgb(44,44,44);
 }
-.textarea{
-    margin-left: auto;
-    padding: 10px;
+input{
+   width: 100%;
+   height: 40px;
+   padding-left: 20px;
+   border: 3px solid #E0870B;
+   border-radius: 10px;
+   font-size: 20px;
+   margin: 10px 0;
 }
+textarea{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: 3px solid #E0870B;
+    font-size: 20px;
+}
+
 #submit-btn{
     color: white;
     font-size: 30px;
-    padding: 10px 20px;
-    margin: auto;
+    width: 200px;
+    height: 60px;
+    margin-top: 40px;
     border-radius: 10px;
     border: 5px #50c9f2 solid;
     background-color: #50c9f2;
+    box-shadow: 1px 10px 15px 1px rgb(44,44,44);
+}
+#submit-btn:hover{
+    background-color: #E0870B;
+    border: #e0870b;
 }
 
-/*FOOTER SOCIAL MEDIA BUTTONS*/
+footer{
+    position: relative;
+}
 
-#index .icons-sm{
-    font-size: 25px;
-    padding: 12px;
-    text-align: center;
-    background-color:  white;
-    color: #50caf2;
-    border-radius: 5px;
-    border: 1px solid white;
-}
-#index .medium{
-    background-color: white;
-    color: white;
-    padding: 12px;
-    border-radius: 5px;
-    border: 1px solid white;
-    height: 50px;
-    width: 50px;
-}
-#index footer .icons-sm:hover, #index .medium:hover{
-    background-color: black;
-}
-footer div{
-    display: inline-flex;
-    flex-wrap: wrap;
-}
-#index footer a{
-    margin: 5px;
-    display: inline-block;
-    max-height: 50px;
-    max-width: 50px;
 
+/* MOBILE*/
+
+@media (min-width: 300px) and (max-width: 750px) {
+  .contact-form{
+        left: 5%;
+        width: 90%;
+    }
+  
+}
+
+/*TABLETS*/
+@media (min-width: 751px) and (max-width: 1024px){
+  
+  .contact-form{
+        left: 10%;
+        width: 80%
+    }
+  
 }

@@ -1,131 +1,118 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Jessica Chambers- Web Dev</title>
 	<link rel="stylesheet" type="text/css" href="resources/css/index.css">
-    <link rel="stylesheet" type="text/css" href="resources/css/Contact.css">
+
     <link href="https://fonts.googleapis.com/css?family=Krona+One|Roboto+Condensed:400,700" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Anton|Titan+One" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Fjalla+One|IBM+Plex+Sans" rel="stylesheet"> 
 
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-	<!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
-<body class="body-img" id="index">	
+<body>	
 	<header>
-		<nav class="navbar navbar-inverse navbar-fixed-top navbar-expand-lg">
-	  		<div class="container-fluid navbar-attr">
-	    		<!-- Brand and toggle get grouped for better mobile display -->
-	    		<div class="navbar-header">
-	      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				        <span class="sr-only navbar-collapse">Toggle navigation</span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-	      			</button>
-	      			<a class="navbar-brand name" href="index.html">Jessica Chambers</a>
-	    		</div>
-
-	    		<!-- Collect the nav links, forms, and other content for toggling -->
-	    		<div class="collapse navbar-collapse navbar-attr" id="bs-example-navbar-collapse-1">
-	      			<ul class="nav navbar-nav">
-				        <li class="nav-item">
-				        	<a class="nav-link" href="Resume.html">Resume </a>
-				        </li>
-				        <li class="nav-item">
-				        	<a class="nav-link" href="portfolio.html">Portfolio</a>
-				        </li>
-				        <li class="nav-item">
-				        	<a class="nav-link" href="contact.html">Contact</a>
-				        </li>
-	      			</ul>
-	    		</div><!-- /.navbar-collapse -->
-	  		</div><!-- /.container-fluid -->
+		<nav class="navbar">
+			<span class="navbar-toggle" id="js-navbar-toggle">
+            	<i class="fas fa-bars"></i>
+        	</span>
+			<a href="index.html" class="logo">Jessica Chambers</a>
+	      	<ul class="navbar-list main-nav" id="js-menu">
+				<li class="nav-item">
+				    <a class="nav-link" href="Resume.html">Resume </a>
+				</li>
+				<li class="nav-item">
+				    <a class="nav-link" href="portfolio.html">Portfolio</a>
+				</li>
+				<li class="nav-item">
+				    <a class="nav-link" href="contact.html">Contact</a>
+				</li>
+	      	</ul>
 		</nav>
+		<div class="header-img">
+			<div class="about">
+				<h1>Front-End Developer</h1>	
+			</div>
+			<div class="about-p">
+				<p>I am a Front-End Developer, looking to enhance my skills and knowledge. I am a self-taught developer, using the Internet, Free Code Camp, and other resources for learning.</p>
+			</div>
+			
+		</div>
 	</header>
-	<div class="box-green about">
-		<h2>Front-End Developer</h2>
-		<p>I am a Front-End Developer, looking to enhance my skills in back-end development. I am a self-taught developer, using the Internet, Free Code Camp, and other resources for learning. I have been programming for 5 years and now I have finally found what I really love. I have learned languages from C++ to Assembly Language. I have used FPGAs, programming in VHDL. I can truly say that I love all aspects of programming. Next, I want to get into application development.</p>
-	</div>
+	
+	<section class="format-section top-mobile">
+		<div class="box-green education">
+			<h2>Education</h2>
+			<h3>Coursera</h3>
+			<p>Google IT Support Professional Certification</p>
+			<h3>Free Code Camp</h3>
+			<p>Responsive Web Design Certification</p>
 
-	<div class="box-green education">
-		<h2>Education</h2>
-		<p>Alabama A &amp; M University</p>
-		<p>Electrical Engineering</p>
-		<p>Concentration in Computer Engineering</p>
-	</div>
-
-	<div class="box-green program-lang">
-		<h2>Programing Languages</h2>
-		<ul class="p-format list-group">
-			<li>HTML</li>
-			<li>CSS</li>
-			<li>Bootstrap</li>
-			<li>JavaScript</li>
-			<li>JQuery</li>
-			<li>C++</li>
-			<li>Java</li>
-			<li>VHDL</li>
-			<li>MATLAB</li>
-		</ul>
-	</div>
-
-	<div class="box-green portfolio-home">
+			<h3>Alabama A &amp; M University</h3>
+			<p>Electrical Engineering</p>
+			<p>Concentration in Computer Engineering</p>
+		</div>
+		<div class="box-green program-lang">
+			<h2>Skills</h2>
+			<ul class="p-format">
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>Bootstrap</li>
+				<li>JavaScript</li>
+				<li>JQuery</li>
+				<li>Flexbox</li>
+				<li>CSS Grid</li>
+				<li>SASS</li>
+				<li>CSS Variables</li>
+				
+			</ul>
+		</div>
+	</section>
+	<section class="portfolio-home">
 		<h2>Portfolio</h2>
-		<div class="row">
-			<div class="col-md-4 col-sm-12">
-				<a href="https://github.com/j14chambers/30days30sites/tree/master/Author_Book">
-					<img src="https://github.com/j14chambers/Portfolio/blob/develop/resources/images/Screenshots/30Days30Sites/Screenshot-Branded.png?raw=true" alt="Branded">
+		<div class="format-section">
+			<div class="img-links">
+				<a href="https://codepen.io/j14chambers/full/OZGbMG">
+					<img src="resources/images/Screenshots/Free Code Camp/JS Calculator.png" alt="JS Calculator"/>
 				</a>
+				<h4>JS Calculator</h4>
 			</div>
-			<div class="col-md-4 col-sm-12">
-				<a href="https://github.com/j14chambers/30days30sites/tree/master/Movie_Trailer">
-					<img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1272817.XgXPmr.33e83d22-b8e5-4ef8-9baf-7b4b2fc9f16f.png" alt="Iron Man Page" />
+			<div class="img-links">
+				<a href="https://github.com/j14chambers/30days30sites/tree/master/Tourist%20Attraction">
+					<img src="resources/images/Screenshots/30Days30Sites/Yellowstone National Park.png" alt="Tourist Attraction">
 				</a>
+				<h4>Tourist Attraction</h4>
 			</div>
-			<div class="col-md-4 col-sm-12">
+			<div class="img-links">
 				<a href="https://codepen.io/j14chambers/full/owvwRQ">
 					<img src="https://s3-us-west-2.amazonaws.com/i.cdpn.io/1272817.owvwRQ.6de14773-bddf-4509-aaa8-5ce6dcb43fc7.png" alt="ROLSS" />
 				</a>
+				<h4>ROLSS</h4>
 			</div>
 		</div>
         <p style="clear: both; margin-top: 10px;" id="hover"><a href="portfolio.html"> View More...</a></p>
-	</div>
+	</section>
 
 
 	<footer> 
         <div>
-            <!--Facebook-->
-            <a href="https://www.facebook.com" class="icons-sm fb-ic"><i class="fa fa-facebook"> </i></a>
+            <!--Codepen-->
+            <a href="https://www.codepen.io/j14chambers" class="icons-sm fb-ic"><i class="fab fa-codepen"> </i></a>
             <!--Twitter-->
-            <a href="https://twitter.com/jmspaceblog" class="icons-sm tw-ic"><i class="fa fa-twitter"> </i></a>
-            <!--Google +-->
-            <a href="https://plus.google.com/u/0/113846394506215580994" class="icons-sm gplus-ic"><i class="fa fa-google-plus"> </i></a>
+            <a href="https://twitter.com/jmspaceblog" class="icons-sm tw-ic"><i class="fab fa-twitter"> </i></a>
             <!--Linkedin-->
-            <a href="https://linkedin.com/in/jessica-m-chambers" class="icons-sm li-ic"><i class="fa fa-linkedin"> </i></a>
+            <a href="https://linkedin.com/in/jessica-m-chambers" class="icons-sm li-ic"><i class="fab fa-linkedin"> </i></a>
             <!--Instagram-->
-            <a href="https://instagram.com/jmspaceblog" class="icons-sm ins-ic"><i class="fa fa-instagram"> </i></a>
+            <a href="https://instagram.com/jmspaceblog" class="icons-sm ins-ic"><i class="fab fa-instagram"> </i></a>
             <!--Github-->
-            <a href="https://github.com/j14chambers" class="icons-sm git-ic"><i class="fa fa-github"> </i></a>
-            <a href="https://medium.com/@JMSPACE"><img class="medium" src="resources/images/icons8-medium-50.png"></a>
+            <a href="https://github.com/j14chambers" class="icons-sm git-ic"><i class="fab fa-github"> </i></a>
+            <a class='icons-sm' href="https://medium.com/@JMSPACE"><img class="medium" src="resources/images/icons8-medium-50.png"></a>
         </div>
     
         <div class="style-ft">
-            <h6> &copy; 2018.This website was created by Jessica Chambers</h6>
+            <h6> &copy; 2019. This website was created by Jessica Chambers</h6>
         </div>
     </footer>
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="resources/js/navbar.js"></script>
 </body>
 </html>
