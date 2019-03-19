@@ -131,7 +131,7 @@ nav a, .navbar-attr{
 	color: #50c9f2;
 }
 .header-img{
-	background-image: url('https://s-media-cache-ak0.pinimg.com/originals/0b/e2/27/0be227030cfeefd5e1dfa4e8b1d01fad.jpg');
+	background-image: url(resources/images/bg-image.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center center;
