@@ -1,6 +1,7 @@
 # Jessica Chambers - Web Developer - Portfolio
 
 Direct Link:
+
      [Portfolio] (http://www.j14chambers.github.io/Portfolio/index.html)
       
 
